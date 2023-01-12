@@ -2,10 +2,12 @@
 const keys = document.querySelectorAll(".key")
 
 // play notes
+function playNote(event){
+    console.log(event)
+}
+    
 
 // click with mouse
 
 // keyboard type
-window.addEventListener("keydown", function(event){
-    console.log(event)
-})
+window.addEventListener("keydown", playNote)
